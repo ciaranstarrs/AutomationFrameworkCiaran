@@ -1,6 +1,7 @@
 package com.safebear.auto.Pages;
 
 import com.safebear.auto.Pages.locators.LoginPageLocators;
+import com.safebear.auto.Pages.locators.ToolsPageLocators;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
 
     LoginPageLocators locators = new LoginPageLocators();
+
 
     @NonNull WebDriver driver;
 
@@ -31,9 +33,15 @@ public class LoginPage {
         driver.findElement(locators.getLoginBttonLoctaor()).click();
     }
 
+   // public void getErrorMessage() {driver.findElement(locators.getLoginNotSuccessfulMessage().ge
+
+
+
+
+
+
 
 
 
 }
-
 
