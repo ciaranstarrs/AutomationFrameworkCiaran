@@ -1,5 +1,7 @@
 package com.safebear.auto.tests;
 
+import com.safebear.auto.Pages.LoginPage;
+import com.safebear.auto.Pages.ToolsPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
@@ -10,11 +12,14 @@ public abstract class BaseTest {
 
 
     WebDriver driver;
+    protected LoginPage loginPage;
+    protected ToolsPage toolsPage;
 
     @BeforeTest
     public void setUp(){
-
         driver = Utils.getDriver();
+        loginPage = new LoginPage(driver);
+        toolsPage = new ToolsPage(driver);
     }
 
     @AfterTest
