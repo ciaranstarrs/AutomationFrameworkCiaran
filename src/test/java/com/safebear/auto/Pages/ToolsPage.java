@@ -14,7 +14,15 @@ public class ToolsPage {
 
     @NonNull WebDriver driver;
 
+    public String getPageTitle(){
 
+
+        return driver.getTitle().toString();
+    }//getpageTitle
+
+    public String getSuccessMessageText(){
+        return driver.findElement(locator.getSuccessmessageLocator()).getText();
+    }
 
 
 
