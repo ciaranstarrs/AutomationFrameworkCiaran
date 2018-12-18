@@ -31,6 +31,9 @@ public class LoginPage {
         driver.findElement(locators.getLoginBttonLoctaor()).click();
     }
 
+
+
+
 }
 
 
