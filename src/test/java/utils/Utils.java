@@ -24,7 +24,10 @@ public class Utils {
 
         switch (BROWSER){
             case "chrome":
-                return new ChromeDriver();
+                return new ChromeDriver(options);
+            case "headless":
+                    options.addArguments("headless","disable-gpu");
+                            return new ChromeDriver(options);
             case "firefox":
                 return new FirefoxDriver();
             default:
