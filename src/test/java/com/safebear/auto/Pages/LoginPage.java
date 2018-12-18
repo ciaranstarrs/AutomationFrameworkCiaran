@@ -33,7 +33,7 @@ public class LoginPage {
         driver.findElement(locators.getLoginBttonLoctaor()).click();
     }
 
-   // public void getErrorMessage() {driver.findElement(locators.getLoginNotSuccessfulMessage().ge
+    //public void getErrorMessage() {driver.findElement(locators.getLoginNotSuccessfulMessage()).getText();
 
 
 
