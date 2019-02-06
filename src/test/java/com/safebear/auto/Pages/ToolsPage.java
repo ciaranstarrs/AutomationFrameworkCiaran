@@ -12,6 +12,7 @@ public class ToolsPage {
 
     ToolsPageLocators locator = new ToolsPageLocators();
 
+
     @NonNull WebDriver driver;
 
     public String getPageTitle(){
@@ -20,10 +21,12 @@ public class ToolsPage {
         return driver.getTitle().toString();
     }//getpageTitle
 
-    public String getSuccessMessageText(){
+
+
+  /*  public String getSuccessMessageText(){
         return driver.findElement(locator.getSuccessmessageLocator()).getText();
     }
-
+*/
 
 
 

@@ -16,7 +16,7 @@ public class ExampleClass {
     public void emptyMethod(){
 
         // We use an Assertion to check that our example variable is equal to 5
-        Assertions.assertThat(exampleVariable).isEqualTo(5);
+        Assertions.assertThat(exampleVariable).isEqualTo(6);
 
         // We can print something to screen
         System.out.println("This is our third commit");

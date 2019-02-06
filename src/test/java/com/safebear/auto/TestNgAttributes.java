@@ -2,7 +2,8 @@ package com.safebear.auto;
 
 import org.testng.annotations.Test;
 
-public class TestNgAttributes {
+public class
+TestNgAttributes {
 
     String message;
 

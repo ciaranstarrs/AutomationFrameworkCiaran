@@ -7,6 +7,8 @@ import utils.Utils;
 public class LoginTests extends BaseTest {
 
 
+/*
+
     @Test
     public void LoginTest() {
         //STEP 1 ACTION: Open your web appplication in the browser
@@ -40,7 +42,10 @@ public class LoginTests extends BaseTest {
 
 
 
+
     }
+*/
+
 
 
 }//class

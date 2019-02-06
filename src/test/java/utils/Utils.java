@@ -7,7 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Utils {
 
-    private static final String URL = System.getProperty("url", "http://localhost:8080");
+//    private static final String URL = System.getProperty("url", "http://localhost:8080");
+    private static final String URL = System.getProperty("url", "https://www.pnas.org");
     private static final String BROWSER = System.getProperty("browser", "chrome");
 
 
