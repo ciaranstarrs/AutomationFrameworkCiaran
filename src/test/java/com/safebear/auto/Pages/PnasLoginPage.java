@@ -27,7 +27,7 @@ public class PnasLoginPage {
     }//getpageTitle
 
 public void enterUsername(){
-        driver.findElement(locators.getUsername()).sendKeys("_putUsernameHere");
+        driver.findElement(locators.getUsername()).sendKeys("_putUsernameHere_");
 }//enterUsername
 
 public void enterPassword(){
