@@ -26,12 +26,12 @@ public class PnasLoginPage {
         return driver.getTitle().toString();
     }//getpageTitle
 
-public void enterUsername(){
-        driver.findElement(locators.getUsername()).sendKeys("_putUsernameHere_");
+public void enterUsername(String username){
+        driver.findElement(locators.getUsername()).sendKeys(username);
 }//enterUsername
 
-public void enterPassword(){
-    driver.findElement(locators.getPassword()).sendKeys("putPasswordHere");
+public void enterPassword(String password){
+    driver.findElement(locators.getPassword()).sendKeys(password);
 }//enterPassword
 
 public void clickSubmit(){

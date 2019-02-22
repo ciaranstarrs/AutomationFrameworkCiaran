@@ -23,15 +23,15 @@ public class PnasHomepage {
     }//getpageTitle
 
     public void clickLogin(){
-        driver.findElement(locators.loginLink2).click();
+        driver.findElement(locators.getLoginLink()).click();
     }
 
      public String verifyLogoutText(){
-        return driver.findElement(locators.logOutLink).getText();
+        return driver.findElement(locators.getLogOutLink()).getText();
      }
 
      public void clickLogoutLink(){
-         driver.findElement(locators.logOutLink).click();
+         driver.findElement(locators.getLogOutLink()).click();
      }
 
 
